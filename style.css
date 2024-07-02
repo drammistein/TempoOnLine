@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.card-text ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.nav-link{
+    color: #020203;
+}
+
+.logo {
+    width:80px;
+    border-radius: 50%;
+  
+}
