@@ -19,6 +19,10 @@ body {
     color: #ccec;
 }
 
+.card {
+    margin-bottom: 
+}
+
 .card-title {
     margin-bottom: 1rem;
     color: #333;
@@ -39,10 +43,6 @@ footer {
     .section {
         margin-bottom: 1rem;
     }
-
-   
-
- 
 
     footer {
         position: fixed;
