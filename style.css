@@ -2,6 +2,23 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.header {
+    background: #000B6B;
+}
+
+.logo {
+    width:80px;
+    border-radius: 50%;
+  
+}
+
+.nav-link {
+    color: #fff;
+}
+.nav-link:hover {
+    color: #ccec;
+}
+
 .card-title {
     margin-bottom: 1rem;
     color: #333;
@@ -18,13 +35,20 @@ footer {
     bottom: 0;
 }
 
+@media (max-width: 767px) {
+    .section {
+        margin-bottom: 1rem;
+    }
 
-.nav-link{
-    color: #020203;
+   
+
+ 
+
+    footer {
+        position: fixed;
+    }
+
+
+
 }
 
-.logo {
-    width:80px;
-    border-radius: 50%;
-  
-}
