@@ -42,15 +42,43 @@ body {
     
 }
 
+.card-body {
+    margin: auto;
+}
+
 .card-title {
     margin-bottom: 1rem;
     color: #333;
     text-shadow: 1px 1px #cebece;
+    padding-left: 12px;
+}
+
+.card-text {
+    text-align: justify;
+    padding: 0 12px 0 12px;
 }
 
 .card-text ul {
     list-style-type: disc;
     padding-left: 1.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.grid-container .grid-item {
+    //border: #cece solid 1px;
+    padding: 10px 20px 10px 20px;
+    background: #a5adb1;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+#videos {
+    margin-bottom: 50px;
 }
 
 footer {
