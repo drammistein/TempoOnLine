@@ -1,0 +1,114 @@
+body {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.header {
+    background: #000B6B;
+}
+
+#titulo {
+    text-transform: UPPERCASE;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.logo {
+    width:55px;
+    border-radius: 50%;
+  
+}
+
+.nav-link {
+    color: #fff;
+    padding-right: 50px;
+    font-weight: bold;    
+}
+
+.nav-link:hover {
+    color: #ccec;
+}
+
+
+
+.card {
+    margin: auto;
+    margin-bottom: 1rem;
+    max-width: 95%;
+    
+}
+
+.card-body {
+    margin: auto;
+}
+
+.card-title {
+    margin-bottom: 1rem;
+    color: #333;
+    text-shadow: 1px 1px #cebece;
+    padding-left: 12px;
+}
+
+.card-text {
+    text-align: justify;
+    padding: 0 12px 0 12px;
+}
+
+.card-text ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.grid-container .grid-item {
+    border: #a5adb1 solid 2px;
+    padding: 10px 20px 10px 20px;
+    background: #ececec;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+#videos {
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+       
+}
+
+  
+
+
+
+@media (max-width: 767px) {
+    .section {
+        margin-bottom: 1rem;
+    }
+
+    .container {
+        padding-bottom: 50px;
+    }
+
+    footer {
+        position: fixed;
+        
+    }
+
+
+
+
+
+}
+
