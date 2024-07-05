@@ -1,31 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 .header {
     background: #000B6B;
 }
 
+#titulo {
+    text-transform: UPPERCASE;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
 .logo {
-    width:80px;
+    width:55px;
     border-radius: 50%;
   
 }
 
 .nav-link {
     color: #fff;
+    padding-right: 50px;
+    font-weight: bold;    
 }
+
 .nav-link:hover {
     color: #ccec;
 }
 
+
+
 .card {
-    margin-bottom: 
+    margin: auto;
+    margin-bottom: 1rem;
+    max-width: 95%;
+    
 }
 
 .card-title {
     margin-bottom: 1rem;
     color: #333;
+    text-shadow: 1px 1px #cebece;
 }
 
 .card-text ul {
@@ -33,13 +53,16 @@ body {
     padding-left: 1.5rem;
 }
 
-
-
 footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+       
 }
+
+  
+
+
 
 @media (max-width: 767px) {
     .section {
@@ -52,6 +75,7 @@ footer {
 
     footer {
         position: fixed;
+        
     }
 
 
