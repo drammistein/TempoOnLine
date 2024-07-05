@@ -111,7 +111,10 @@ footer {
 
     .video-container {
         flex-direction: column;
-        
+    }
+
+    .one {
+        margin-bottom: 10px;
     }
 
     video {
