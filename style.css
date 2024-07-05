@@ -70,7 +70,7 @@ body {
 }
 
 .grid-container .grid-item {
-    //border: #cece solid 1px;
+    border: #cece solid 2px;
     padding: 10px 20px 10px 20px;
     background: #a5adb1;
     border-radius: 8px;
