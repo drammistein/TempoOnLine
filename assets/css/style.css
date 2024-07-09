@@ -33,7 +33,9 @@ body {
     color: #ccec;
 }
 
-
+.container {
+   
+}
 
 .card {
     margin: auto;
@@ -68,12 +70,12 @@ body {
     justify-content: space-around;
     align-items: center;
     //flex-direction: column;
-    margin-top: 25px;
+    //margin-top: 5px;
 }
 
 video {
-    width: 440px;
-    height: 340px;
+    width: 340px;
+    height: 240px;
 }
 
 .flex-item {  
@@ -90,16 +92,13 @@ video {
 
 
 footer {
-    position: fixed;
+    position: absolute;
     width: 100%;
     bottom: 0;
        
 }
 
   
-
-
-
 @media (max-width: 767px) {
     .section {
         margin-bottom: 1rem;
@@ -121,7 +120,6 @@ footer {
        width: 100%;
     }
     
-
     footer {
         position: fixed;
         

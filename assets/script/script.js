@@ -19,3 +19,8 @@ $(document).ready(function() {
     $(window).resize(handleResize);
     handleResize();
 });
+
+let teste = 11;
+let teste1 = "teste"
+
+
